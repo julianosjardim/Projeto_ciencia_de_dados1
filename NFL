@@ -1,0 +1,19 @@
+import sports # De onde vem os dados (biblioteca)
+
+
+print("Welcome to the NFL world!\n") # Apresentação
+
+team = input("Insert NFL team name and get all info: ") # Inserir dados
+
+equipe = sports.get_team(sports.FOOTBALL, team) # Onde os dados são colocados
+
+
+
+# Dados fornecidos
+print("Team name: ",equipe.name)
+print("Seasons: ",equipe.seasons)
+print("Record: ",equipe.record)
+print("Champs: ",equipe.champs)
+print("Super bowls winning: ",equipe.super_bowls)
+print("Team leaders: ",dados)
+
